@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChristianDaniels</title>
+    <script
+      src="https://kit.fontawesome.com/62b0fbe377.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="images/image00002.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/image00002.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+         <div id="typed-output">
+          
+         </div>
+          <h1>Hi, I'm <span>Christian</span><br />Daniels From Nigeria</h1>
+        </div>
+      </div>
+    </div>
+    <!----------about--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/image00001 (1).png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="abt-para">
+              Meet Christian Daniels, a multifaceted Front-End Developer with a
+              solid background in Computer Science. His journey in tech includes
+              specializing in Software Development at SAIL Innovative, where he
+              refined his skills and developed a passion for crafting seamless
+              user experiences. A skilled UI/UX Designer, Christian brings web
+              pages to life by balancing functionality with aesthetics. His
+              expertise in building dynamic web applications is complemented by
+              a strong command of JavaScript, React, HTML, and CSS, creating
+              responsive and user-friendly interfaces. In addition to his
+              development and design skills, Christian is proficient in using
+              WIX Studio and the WIX app to develop websites, demonstrating his
+              versatility across platforms. Always eager to embrace new
+              challenges and expand his skill set, Christian is a dynamic
+              presence in the ever-evolving world of web development. Beyond
+              development and design, Christian is also adept at mobile phone
+              repairs, handling both hardware and software issues with ease.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/app interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>WIX Studio Expart</span><br />Web Development and Design
+                </li>
+                <li>
+                  <span>App Development</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />UI/UX Designer at Daniels
+                  Network
+                </li>
+                <li><span>2023 - 2024</span><br />UI/UX Training</li>
+                <li>
+                  <span>2024 - Current</span><br />Team lead at WillyWillMar
+                  LTD.
+                </li>
+                <li>
+                  <span>2024 - 2025</span><br />Software Development at Sail
+                  Innovative Lab.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />National Diploma in Computer Science at
+                  Lagos State Polytechnic
+                </li>
+
+                <li>
+                  <span>2025</span><br />Certificate in Software Development at
+                  SAIL LAB
+                </li>
+                <li><span>2024</span><br />Certificate in UI/UX Design</li>
+                <li>
+                  <span>2021</span><br />Certificate in phone Hardware and
+                  Software Repair
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------services--------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p class="para">
+              I specialize in creating visually stunning, user-friendly websites
+              that deliver seamless user experiences. With a focus on responsive
+              design, I ensure your website looks and performs beautifully
+              across all devices. 
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI/UX Design</h2>
+            <p class="para">
+              I offer comprehensive UI/UX design services that prioritize the
+              user experience while delivering visually engaging interfaces. My
+              process involves deep research into user behavior to create
+              intuitive, easy-to-navigate designs that improve engagement and
+              satisfaction. 
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-uikit"></i>
+            <h2>Front-End</h2>
+            <p class="para">
+              I provide top-tier front-end development services, bringing
+              designs to life with clean, efficient code. Using the latest
+              technologies like JavaScript, React, HTML, and CSS, I build
+              responsive, fast-loading websites that deliver an exceptional user
+              experience on any device.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <!--------------portfolio------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Oil company</h3>
+              <p>
+                I designed and developed a website that is easy to use and
+                visually appealing.
+              </p>
+              <a href="https://www.willywillmar.com"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>UI/UX for a solar firm</h3>
+              <p>
+                I designed a UI/UX for a solar firm that is easy to use and
+                visually appealing. The website is designed to be responsive and
+                accessible on all devices.
+              </p>
+
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Design and development of a social media app for a startup
+                company.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!---------contact---------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>kingkrisman@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+234-9046058174</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Coded by Christian Dainiels <i class="fa-solid fa-heart"></i> Daniels
+          Network
+        </p>
+      </div>
+    </div>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        var typed = new Typed('#typed-output', {
+            strings: [,"Frontend Developer", "Software Developer" ,"User Research", "UI/UX Designer"],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true,
+            showCursor: false
+        });
+      })
+    </script>
+
+
+
+
+
+
+
+    <script>
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <form name="submit-to-google-sheet"></form>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwfj7l-vqbIrlSiDxgTaPP6ZWCtIHDyvieftfFxV_QJBxugObhVWs6QL-QE6jcCUnss/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      let msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+
+<script src="script.js"></script>
+
+
+    <script>
+      const coords = { x: 0, y: 0 };
+      const circles = document.querySelectorAll(".circle");
+
+      const colors = [
+        "#ffb56b",
+        "#fdaf69",
+        "#f89d63",
+        "#f59761",
+        "#ef865e",
+        "#ec805d",
+        "#e36e5c",
+        "#df685c",
+        "#d5585c",
+        "#d1525c",
+        "#c5415d",
+        "#c03b5d",
+        "#b22c5e",
+        "#ac265e",
+        "#9c155f",
+        "#950f5f",
+        "#830060",
+        "#7c0060",
+        "#680060",
+        "#60005f",
+        "#48005f",
+        "#3d005e",
+      ];
+
+      circles.forEach(function (circle, index) {
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.backgroundColor = colors[index % colors.length];
+      });
+
+      window.addEventListener("mousemove", function (e) {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+      });
+
+      function animateCircles() {
+        let x = coords.x;
+        let y = coords.y;
+
+        circles.forEach(function (circle, index) {
+          circle.style.left = x - 12 + "px";
+          circle.style.top = y - 12 + "px";
+
+          circle.style.scale = (circles.length - index) / circles.length;
+
+          circle.x = x;
+          circle.y = y;
+
+          const nextCircle = circles[index + 1] || circles[0];
+          x += (nextCircle.x - x) * 0.3;
+          y += (nextCircle.y - y) * 0.3;
+        });
+
+        requestAnimationFrame(animateCircles);
+      }
+
+      animateCircles();
+    </script>
+
+
+
+
+
+  </body>
+</html>
